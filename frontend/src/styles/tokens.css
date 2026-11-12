@@ -1,0 +1,17 @@
+/* Design tokens: the only place colors, spacing and type are defined. */
+:root {
+  --color-primary: #1f6feb;
+  --color-primary-text: #ffffff;
+  --color-neutral: #d0d7de;
+  --color-neutral-text: #24292f;
+  --color-danger: #cf222e;
+
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+
+  --radius: 6px;
+  --font-body: system-ui, -apple-system, 'Segoe UI', sans-serif;
+  --font-size-sm: 13px;
+}
