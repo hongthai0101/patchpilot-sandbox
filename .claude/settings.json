@@ -1,7 +1,10 @@
 {
   "permissions": {
     "defaultMode": "acceptEdits",
-    "additionalDirectories": ["/srv/patchpilot/artifacts"],
+    "additionalDirectories": [
+      "/Users/macc/workspace/company/meditrust/patchpilot-work/artifacts",
+      "/srv/patchpilot/artifacts"
+    ],
     "allow": [
       "Bash(pnpm -C frontend lint:*)",
       "Bash(pnpm -C frontend typecheck:*)",
