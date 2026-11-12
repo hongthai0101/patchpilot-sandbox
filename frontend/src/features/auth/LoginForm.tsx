@@ -17,16 +17,7 @@ export function LoginForm() {
       <input aria-label="Email" type="email" />
       <input aria-label="Password" type="password" />
       {error && (
-        <p
-          role="alert"
-          style={{
-            color: 'var(--color-danger)',
-            fontSize: 'var(--font-size-sm)',
-            whiteSpace: 'nowrap',
-            overflow: 'hidden',
-            textOverflow: 'ellipsis',
-          }}
-        >
+        <p role="alert" style={{ color: 'var(--color-danger)', fontSize: 'var(--font-size-sm)' }}>
           {error}
         </p>
       )}
